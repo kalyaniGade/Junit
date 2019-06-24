@@ -17,9 +17,5 @@ public class LibraryTest {
     {
     	assertEquals(20,lib.add(lib.a, lib.b) );
     }
-    @Test
-    public void testAddMaxInteger() {
-        assertEquals(2147483646, Integer.sum(2147183646, 300000));
-    }
-    
+  
 }
