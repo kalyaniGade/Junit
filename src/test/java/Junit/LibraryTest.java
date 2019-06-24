@@ -17,5 +17,10 @@ public class LibraryTest {
     {
     	assertEquals(20,lib.add(lib.a, lib.b) );
     }
+    @Test public void test1() 
+    {
+    	assertEquals(20,lib.add(lib.a, lib.b) );
+    }
+    
   
 }
