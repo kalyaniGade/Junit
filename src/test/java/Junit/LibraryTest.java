@@ -6,6 +6,7 @@ package Junit;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
@@ -16,4 +17,9 @@ public class LibraryTest {
     {
     	assertEquals(20,lib.add(lib.a, lib.b) );
     }
+    @Test
+    public void testAddMaxInteger() {
+        assertEquals(2147483646, Integer.sum(2147183646, 300000));
+    }
+    
 }
