@@ -27,7 +27,9 @@ repositories {
     mavenCentral()
 }
 dependencies {
-     def junit4Version   = '4.12'
+       testCompile("junit:junit:4.12");
+ }      
+    /* def junit4Version   = '4.12'
      def junitBomVersion = '5.4.2'
      
      testImplementation(platform("org.junit:junit-bom:5.4.2"))
@@ -53,5 +55,7 @@ test {
     }
    finalizedBy jacocoTestReport
 }
+*/
+
 // Define the main class for the application
 mainClassName = 'Junit.Library'
